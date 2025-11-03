@@ -3,7 +3,7 @@
 A simple yet powerful **3D Renderer** built entirely in **Python** using only the **Pygame** library.
 This project was developed to explore the **core principles of 3D graphics**, including **vector math**, **matrix transformations**, **perspective projection**, and **3D-to-2D rendering** — all from scratch.
 
-🎥 <img width="1001" height="790" alt="Image" src="https://github.com/user-attachments/assets/0b1268fc-69e0-470d-96bf-fb3ca4f7d113" />
+🎥 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0b1268fc-69e0-470d-96bf-fb3ca4f7d113" />
 
 ---
 
@@ -109,9 +109,9 @@ This renderer is a hands-on deep dive into:
 *(Add a GIF or image of your renderer here — for example:)*
 
 ```
-https://github.com/user-attachments/assets/ab213d67-0d74-4e8d-ae04-041f22b54190
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0b1268fc-69e0-470d-96bf-fb3ca4f7d113" />
 
-https://github.com/user-attachments/assets/68e94a79-c789-4e97-b9e9-ed3c4ee7847e
+<img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/e7563074-f6fb-4e76-9029-4cbd22e33952" />
 ```
 
 ---
