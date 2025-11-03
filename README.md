@@ -1,122 +1,125 @@
-# 🧱 3D Renderer
-*A Simple Python 3D Wireframe Renderer built from scratch using Pygame.*
+# 🧩 **Python 3D Renderer**
 
-![3D Renderer Screenshot](assets/screenshot.png)
-<!-- You can replace this with an actual image or GIF later -->
+A simple yet powerful **3D Renderer** built entirely in **Python** using only the **Pygame** library.
+This project was developed to explore the **core principles of 3D graphics**, including **vector math**, **matrix transformations**, **perspective projection**, and **3D-to-2D rendering** — all from scratch.
 
----
-
-## 🧠 Overview
-
-This project is a **basic 3D scene editor** and renderer built entirely in Python using only **Pygame** for 2D drawing and windowing.  
-It’s designed to help understand the **fundamentals of 3D graphics**, including:
-
-- Vector math  
-- Perspective projection  
-- 3D-to-2D transformation pipelines  
+🎥 https://github.com/user-attachments/assets/ab213d67-0d74-4e8d-ae04-041f22b54190
 
 ---
 
-## ✨ Features
+## 🚀 **Features**
 
-✅ **Real-time 3D Rendering**  
-All transformations and projections are computed on the CPU in real-time.
+✅ **Real-time 3D Rendering** — All transformations and projections are handled on the CPU in real time.
 
-✅ **Object-Oriented Design**  
-A `Shape3D` class manages multiple objects in the scene.
+✅ **Object-Oriented Architecture** — `Shape3D` class manages all 3D objects cleanly and efficiently.
 
-✅ **Full 3D Control**  
-Translate and rotate active objects along all three axes (X, Y, Z).
+✅ **Full 3D Control** — Move and rotate objects freely along **X**, **Y**, and **Z** axes.
 
-✅ **Perspective Projection Camera**  
-Objects farther away appear smaller — creating a true 3D perspective.
+✅ **Perspective Camera** — Realistic depth perception where distant objects appear smaller.
 
-✅ **Multiple Shape Support**  
-Comes with a Cube 🧊 and Pyramid 🔺 by default.
+✅ **Built-in Shapes** — Includes **Cube** and **Pyramid** examples.
 
-✅ **Custom Shape Editor (Draw Mode)**  
-Click to draw a 2D shape, which is then converted into a 3D object.
+✅ **Interactive Shape Editor** — Create custom shapes in **Draw Mode**.
 
-✅ **Simple Shadow Casting**  
-Objects cast flat projected shadows onto the ground plane.
+✅ **Simple Shadow Projection** — Flat shadows projected on the ground plane.
 
-✅ **Heads-Up Display (HUD)**  
-Shows FPS, active shape, and current input mode.
+✅ **On-Screen HUD** — Displays FPS, current shape, and input mode dynamically.
 
 ---
 
-## 🕹️ Controls
+## ⚙️ **Setup & Installation**
 
-### 🎥 View Mode
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YourUsername/3D-Renderer.git
+cd 3D-Renderer
+```
+
+### 2️⃣ Install Dependencies
+
+Only **pygame** is required:
+
+```bash
+pip install pygame
+```
+
+### 3️⃣ Run the Renderer
+
+```bash
+python 3d_renderer.py
+```
+
+---
+
+## 🎮 **Controls**
+
+### 🧭 View Mode
+
 **Move Active Shape**
-| Key | Action |
-|-----|---------|
-| `W` / `S` | Move Forward / Backward (Z-axis) |
-| `A` / `D` | Move Left / Right (X-axis) |
-| `R` / `F` | Move Up / Down (Y-axis) |
+
+* `W / S` → Move Forward / Backward *(Z-axis)*
+* `A / D` → Move Left / Right *(X-axis)*
+* `R / F` → Move Up / Down *(Y-axis)*
 
 **Rotate Active Shape**
-| Key | Action |
-|-----|---------|
-| `↑` / `↓` | Rotate around X-axis |
-| `←` / `→` | Rotate around Y-axis |
-| `Q` / `E` | Roll around Z-axis |
+
+* `↑ / ↓` → Rotate on X-axis
+* `← / →` → Rotate on Y-axis
+* `Q / E` → Roll on Z-axis
 
 **Scene Controls**
-| Key | Action |
-|-----|---------|
-| `TAB` | Switch active (controllable) shape |
-| `M` | Toggle Draw Mode |
+
+* `TAB` → Switch Active Shape
+* `M` → Toggle Draw Mode
 
 ---
 
 ### ✏️ Draw Mode
-| Key / Action | Description |
-|---------------|-------------|
-| **Left Mouse Click** | Add a new vertex |
-| **C** | Connect last two points with an edge |
-| **D** | Finish drawing and create 3D object |
-| **M** | Cancel drawing and return to View Mode |
+
+* 🖱️ **Left Click** — Add a new vertex
+* `C` — Connect last two points with an edge
+* `D` — Finalize shape creation
+* `M` — Cancel and return to View Mode
 
 ---
 
-## 🚀 How to Run
+## 🌱 **Future Improvements**
 
-1️⃣ Clone the Repository
-```bash
-git clone https://github.com/YourUsername/YourRepoName.git
-cd YourRepoName
+✨ **Solid Rendering** — Implement **Painter’s Algorithm** for filled faces.
+✨ **Z-Buffering** — Depth-based pixel rendering for realistic occlusion.
+✨ **Mouse Camera Controls** — Add mouse-driven navigation (mouselook).
+✨ **.OBJ Import** — Load 3D models from tools like **Blender**.
 
-2️⃣ Install Dependencies
+---
 
-You only need Pygame:
-pip install pygame
+## 🧠 **Learning Outcomes**
 
-3️⃣ Run the Renderer
-python simple_3d_renderer.py
+This renderer is a hands-on deep dive into:
 
-💡 Future Ideas
- Implement solid-face rendering using the Painter’s Algorithm (back-to-front sorting).
- Add Z-Buffering (depth buffering) for accurate solid rendering.
- Implement mouse-based camera controls (mouselook).
- Write a simple .obj file loader to import models from Blender.
+* 3D coordinate systems (local, world, view, projection)
+* Matrix transformations and homogeneous coordinates
+* Perspective projection math
+* Real-time rendering logic and optimization
 
-📷 Screenshots / Demo
-Example Scene	Draw Mode	Shadow Example
+---
 
-	
-	
-🧩 Tech Stack
+## 📸 **Preview**
 
-Language: Python 🐍
+*(Add a GIF or image of your renderer here — for example:)*
 
-Graphics Library: Pygame 🎮
+```
+https://github.com/user-attachments/assets/ab213d67-0d74-4e8d-ae04-041f22b54190
 
-Rendering Type: CPU-based 3D Wireframe
+https://github.com/user-attachments/assets/68e94a79-c789-4e97-b9e9-ed3c4ee7847e
+```
 
-🧑‍💻 Author
+---
 
-Eakansh Bhardwaj
-📫 [YourEmail@example.com
-]
-🌐 [Portfolio / LinkedIn / GitHub link here]
+## 🤝 **Contributing**
+
+Pull requests are welcome! Feel free to open issues for bugs, suggestions, or feature requests.
+If you build something cool with this, share it — I’d love to see it!
+
+---
+
