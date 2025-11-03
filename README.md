@@ -106,13 +106,9 @@ This renderer is a hands-on deep dive into:
 
 ## 📸 **Preview**
 
-*(Add a GIF or image of your renderer here — for example:)*
-
-```
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0b1268fc-69e0-470d-96bf-fb3ca4f7d113" />
 
 <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/e7563074-f6fb-4e76-9029-4cbd22e33952" />
-```
 
 ---
 
