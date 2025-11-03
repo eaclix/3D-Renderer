@@ -4,6 +4,8 @@ A **3D Wireframe Renderer** built **from scratch** in **Python**, using only **P
 
 This project demonstrates the **core principles of real-time 3D rendering**, including transformations, projections, and shadows — all implemented manually without any external 3D engine.
 
+https://github.com/user-attachments/assets/96a3dcf4-254e-400b-9083-870a5e62e942
+
 ---
 
 ## 🚀 Overview
